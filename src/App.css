@@ -28,11 +28,39 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-dark,
+.container-light {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.container-light {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 12px 8px;
+}
+
+.container-dark {
+  box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.28);
+  background-color: black;
+  color: white;
+}
+
+.city-name-input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.weather-info span {
+  display: block;
+  margin-top: 8px;
+}
+
+.theme-toggle-checkbox {
+  margin-top: 20px;
 }
